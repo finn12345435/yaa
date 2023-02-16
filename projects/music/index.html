@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Music Player - Cartxrr</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="/css/scrollbar.css">
+    <script src="https://kit.fontawesome.com/11fe60c87a.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="icon" type="image/png" href="/images/icon/192x192.png" sizes="192x192" />
+    <link rel="icon" type="image/png" href="/images/icon/512x512.png" sizes="512x512" />
+    <link rel="icon" type="image/png" href="/images/icon/196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="/images/icon/96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/images/icon/32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/images/icon/16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="/images/icon/128.png" sizes="128x128" />
+
+    <meta property="og:title" content="Javascript Music Player! - Cartxrr" />
+    <meta property="og:description" content="java script music player" />
+    <script src="index.js" defer></script>
+</head>
+<body onload="pageload()">
+
+    <div class="container">
+        <div class="music-player"> 
+        <img src="/images/musicplaythum.jpg" class="song-img">
+        <h1>Vengeance</h1>
+        <a href="creds.txt" target="_blank">Credits</a>
+
+        <audio controls id="song" hidden="true">
+            <source src="Vengeance - Cyn1cal.mp3" type="audio/mpeg">
+        </audio>
+
+        <input type="range" value="0" id="progress">
+
+        <div class="controls">
+            <div onclick="Plause()"><i class="fa-solid fa-play" id="playIcon"></i></div>
+            <div onclick="Restart()"><i class="fa-solid fa-rotate-left"></i></div>
+        </div>
+
+        </div>
+    </div>
+
+</body>
+</html>
