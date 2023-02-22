@@ -1,5 +1,5 @@
 <p align="center">
-<img style="border-radius:50%" height="150px" src="https://cartxrr.vercel.app/images/icon/512x512.png">
+<img style="border-radius:50%" height="150px" src="https://cartxrr.github.io/images/icon/512x512.png">
 </p>
 <h1 align="center">Cartxrr</h1>
 
