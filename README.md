@@ -5,7 +5,3 @@
 
 # Personal Website i Guess
 wsg this is my personal site so enjoy it i guess
-
-
-# Verisons
-- [Website v1](https://cartxrr.github.io/cartxrrs-site-v1/)
