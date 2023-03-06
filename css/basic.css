@@ -78,6 +78,9 @@ hr{
 .top-area .youtube{
     background: red;
 }
+.top-area .mail{
+  background: blue;
+}
 
 .main-content h1{
     text-align: center;
