@@ -1,16 +1,14 @@
 ::-webkit-scrollbar {
     width: 0.5rem;
-  }
-  ::-webkit-scrollbar-track {
+}
+::-webkit-scrollbar-track {
     border-radius: 10rem;
     background-color: #231f20;
-  }
-  ::-webkit-scrollbar-thumb {
+}
+::-webkit-scrollbar-thumb {
     border-radius: 10rem;
     background-color: #fff;
-  }
-  
-
+}
 body{
     background: #111;
 }
@@ -26,7 +24,6 @@ a{
 hr{
     border: 1px solid #444;
 }
-
 .top-area{
     background: url(/images/bar.jpg) center;
     background-size: cover;
@@ -34,7 +31,6 @@ hr{
     padding-bottom: 8rem;
     padding-top: 9rem;
 }
-
 .top-area h1{ 
     text-align: center;
     font-family: "Rubik";
@@ -43,7 +39,6 @@ hr{
     margin-bottom: 5px;
     text-shadow: 4px 4px #444;
 }
-
 .top-area .soc-buttons{
     margin-left: auto;
     margin-right: auto;
@@ -55,7 +50,6 @@ hr{
     flex-wrap: wrap;
     justify-content: center;
 }
-
 .top-area .soc-buttons a{
     border-radius: 15px;
     padding-bottom: 0.5em;
@@ -64,11 +58,9 @@ hr{
     padding-top: 0.5em;
     margin-left: 5px;
 }
-
 .top-area .soc-buttons span{
     margin-left: 5px;
 }
-
 .top-area .github{
     background: #444;
 }
@@ -81,7 +73,6 @@ hr{
 .top-area .mail{
   background: blue;
 }
-
 .main-content h1{
     text-align: center;
     line-height: 10vh;
@@ -101,59 +92,10 @@ hr{
     margin-bottom: 5vh;
     border: 15px solid #3e3739;
     transition: 0.75s;
-    -webkit-animation: downcenta 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-    animation: downcenta 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
     width: 156.25px;
     height: 87px;
   }
 .projects img:hover{
     transition: 0.75s;
-    -webkit-animation: upcenta 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-    animation: upcenta 0.3s cubic-bezier(0.39, 0.575, 0.565, 1) both;
     border: 15px solid #231f20;
-  }
-
-
-  
-  /* Animations */
-  
-  @-webkit-keyframes upcenta {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  100% {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-  }
-  @keyframes upcenta {
-  0% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  100% {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-  }
-  @-webkit-keyframes downcenta {
-  0% {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
-  }
-  @keyframes downcenta {
-  0% {
-    -webkit-transform: scale(1.1);
-    transform: scale(1.1);
-  }
-  100% {
-    -webkit-transform: scale(1);
-    transform: scale(1);
-  }
   }
