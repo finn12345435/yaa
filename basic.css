@@ -25,7 +25,7 @@ hr{
     border: 1px solid #444;
 }
 .top-area{
-    background: url(/images/bar.jpg) center;
+    background: url(/files/bar.jpg) center;
     background-size: cover;
     width: 100%;
     padding-bottom: 8rem;
@@ -57,26 +57,50 @@ hr{
     padding-right: 1em;
     padding-top: 0.5em;
     margin-left: 5px;
+    transition: 0.5s;
 }
 .top-area .soc-buttons span{
     margin-left: 5px;
 }
+.top-area .soc-buttons a:hover{
+    transition: 0.5s;
+    padding-left: 2em;
+    padding-right: 2em;
+}
 .top-area .github{
-    background: #444;
+    background: linear-gradient(to right bottom, #ffffff, #d9d9d9, #b4b4b4, #919191, #6f6f6f, #606060, #525252, #444444, #444444, #444444, #444444, #444444);
 }
 .top-area .speedrun{
-    background: green;
+    background: linear-gradient(to right bottom, #b3ffba, #9bf0a1, #83e188, #6bd26f, #51c356, #44bc4a, #36b63e, #25af31, #25af31, #25af31, #25af31, #25af31);
 }
 .top-area .youtube{
-    background: red;
+    background: linear-gradient(to right bottom, #ffb3b3, #f29998, #e5807d, #d66662, #c64c48, #bf403c, #b73331, #af2525, #af2525, #af2525, #af2525, #af2525);
 }
 .top-area .mail{
-  background: blue;
+    background: linear-gradient(to right bottom, #b99bff, #ae87f1, #a473e2, #9a5ed3, #9148c4, #8d3dbd, #8932b6, #8525af, #8525af, #8525af, #8525af, #8525af);
 }
 .main-content h1{
     text-align: center;
     line-height: 10vh;
     font-family: "Rubik";
+}
+.yes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.yes i{
+    font-size: 15px;
+    margin-top: 3px;
+    margin-left: 5px;
+    line-height: 10vh;
+    color: gray;
+}
+.yes p{
+    margin-top: 2px;
+    margin-left: 15px;
+    line-height: 10vh;
+    color: gray;
 }
 .projects{
     margin-left: auto;
@@ -94,8 +118,8 @@ hr{
     transition: 0.75s;
     width: 156.25px;
     height: 87px;
-  }
+}
 .projects img:hover{
     transition: 0.75s;
     border: 15px solid #231f20;
-  }
+}
