@@ -116,8 +116,8 @@ hr{
     margin-bottom: 5vh;
     border: 15px solid #3e3739;
     transition: 0.75s;
-    width: 156.25px;
-    height: 87px;
+    width: 234.375px;
+    height: 130.5px;
 }
 .projects img:hover{
     transition: 0.75s;
