@@ -118,7 +118,6 @@ hr{
     justify-content: center;
 }
 .projects img{ 
-    z-index: 2;
     border-radius: 24px;
     margin-left: 10px;
     margin-right: 10px;
@@ -192,5 +191,6 @@ hr{
     }
     100%{
         opacity: 0;
+        z-index: -5;
     }
   }
