@@ -73,9 +73,6 @@ hr{
 .top-area .github{
     background: linear-gradient(to right bottom, #ffffff, #d9d9d9, #b4b4b4, #919191, #6f6f6f, #606060, #525252, #444444, #444444, #444444, #444444, #444444);
 }
-.top-area .speedrun{
-    background: linear-gradient(to right bottom, #b3ffba, #9bf0a1, #83e188, #6bd26f, #51c356, #44bc4a, #36b63e, #25af31, #25af31, #25af31, #25af31, #25af31);
-}
 .top-area .youtube{
     background: linear-gradient(to right bottom, #ffb3b3, #f29998, #e5807d, #d66662, #c64c48, #bf403c, #b73331, #af2525, #af2525, #af2525, #af2525, #af2525);
 }
