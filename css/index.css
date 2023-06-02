@@ -142,10 +142,17 @@ iframe{
     min-width: 1000px; 
     min-height: 1000px
 }
+@media (max-width: 960px) {
+    body {
+    zoom: 0.9;
+    -moz-transform: scale(.9); 
+    -moz-transform-origin: 0 0;
+    }
+}
 @media (max-width: 480px) {
     body {
-        zoom: .75;
-        -moz-transform: scale(.75); 
+        zoom: 0.75;
+        -moz-transform: scale(0.75); 
         -moz-transform-origin: 0 0;
     }
 }
